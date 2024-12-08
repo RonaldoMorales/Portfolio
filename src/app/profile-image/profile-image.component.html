@@ -1,19 +1,29 @@
 <div class="bg-gradient-to-r from-blue-100 via-blue-300 to-indigo-400 min-h-screen">
 
-  <div class="p-6 bg-gray-50 rounded-lg shadow-lg max-w-3xl mx-auto mt-8">
+  <div class="p-6 bg-gradient-to-r from-blue-100 via-blue-300 to-indigo-400 rounded-lg shadow-lg max-w-3xl mx-auto mt-8">
     <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Un poco de mí</h2>
+  
     <div class="flex items-center justify-center space-x-6 mb-4">
-      <!-- Imagen redonda -->
-      <div class="flex-shrink-0 w-32 h-32 bg-gray-200 rounded-full overflow-hidden border-4 border-gray-300">
+      
+      <!-- Imagen con bordes redondeados y animación -->
+      <div class="flex-shrink-0 w-32 h-32 bg-gray-200 rounded-full overflow-hidden border-4 border-gray-300 transform hover:scale-110 transition-transform duration-300">
         <img
           src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:kwoea5fwmmwmtblwkwaz7jkw/bafkreietl2bsr45zwqd5p5wpcc6zwnlcnomyxyk6y7reobwsusrqy2lb6m@jpeg"
           alt="Foto profesional"
           class="w-full h-full object-cover"
         />
       </div>
-      <!-- Texto -->
+  
+      <!-- Texto con espaciado y tipografía moderna -->
       <p class="text-lg text-gray-700 leading-relaxed">
-        Soy Ronaldo Morales, Ingeniero Informático de la Universidad Católica del Norte, mi nombre es en honor al famoso jugador de fútbol, Ronaldo Nazario, hablando acerca de mi interés profesional, es el campo de la IA, mi motivación principal es el constante descubrimiento de nuevas tecnologías y la resolución de problemas complejos.
+        Soy <span class="font-semibold text-blue-800">Ronaldo Morales</span>, Ingeniero Informático de la Universidad Católica del Norte. Mi nombre es en honor al famoso jugador de fútbol, Ronaldo Nazario. En cuanto a mi interés profesional, es el campo de la IA. Mi motivación principal es el constante descubrimiento de nuevas tecnologías y la resolución de problemas complejos.
+      </p>
+    </div>
+  
+    <!-- Contenedor con un pequeño toque de diseño -->
+    <div class="mt-6 p-4 bg-white rounded-lg shadow-md border-t-4 border-blue-500">
+      <p class="text-gray-600">
+        Estoy siempre en búsqueda de nuevas oportunidades para aplicar mis conocimientos en proyectos innovadores. Si te interesa trabajar juntos, ¡no dudes en contactarme!
       </p>
     </div>
   </div>
@@ -25,7 +35,7 @@
     </p>
   </section>
 
-  <!-- Habilidades Técnicas -->
+  
   <section id="habilidades-tecnicas" class="my-8 p-6 bg-gray-50 rounded-lg shadow-lg">
     <h2 class="text-2xl font-semibold mb-4 text-center">Habilidades Técnicas</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -58,10 +68,10 @@
     </div>
   </section>
 
-  <!-- Habilidades Blandas y Proyecto Destacado en Flexbox -->
+  
   <section id="habilidades-proyectos" class="my-8 p-6 bg-gray-50 rounded-lg shadow-lg grid grid-cols-1 md:grid-cols-2 gap-6">
     
-    <!-- Habilidades Blandas -->
+    
     <section id="habilidades-blandas" class="p-6 bg-white rounded-lg shadow-lg">
       <h2 class="text-2xl font-semibold mb-4 text-center">Habilidades Blandas</h2>
       <ul class="list-disc pl-6 text-gray-700 space-y-2">
@@ -72,13 +82,13 @@
       </ul>
     </section>
 
-    <!-- Proyecto Destacado -->
+    
     <section id="proyectos-destacados" class="p-6 bg-white rounded-lg shadow-lg">
       <h2 class="text-2xl font-semibold mb-6 text-center">Proyecto Destacado</h2>
 
       
 
-      <!-- Taller 3 de Estructura de Datos: Árboles y Max Heap -->
+      
       <section id="taller-3" class="mb-8">
         <h3 class="text-xl font-semibold mb-2">Ayuda a la Gestión de Recursos Mineros</h3>
         <p class="text-gray-700 mb-2">
@@ -94,11 +104,11 @@
         <a href="https://github.com/JoelMS22/Estructura_Taller_3" class="text-blue-500 hover:underline" target="_blank">Ver repositorio en GitHub</a>
       </section>
 
-      <!-- Equipo -->
+     
       <h3 class="text-xl font-semibold mb-4 text-center">Equipo</h3>
       
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <!-- Ronaldo Morales -->
+        
         <div class="text-center">
           <h4 class="text-lg font-semibold">Ronaldo Morales</h4>
           <div class="w-24 h-24 mx-auto mt-2 rounded-full overflow-hidden border-4 border-gray-300">
@@ -106,7 +116,7 @@
           </div>
         </div>
 
-        <!-- Joel Moya -->
+        
         <div class="text-center">
           <h4 class="text-lg font-semibold">Joel Moya</h4>
           <div class="w-24 h-24 mx-auto mt-2 rounded-full overflow-hidden border-4 border-gray-300">
@@ -119,12 +129,84 @@
 
       
 
-  <!-- Enlace destacado a GitHub -->
-  <section id="github" class="my-8 p-6 bg-blue-100 rounded-lg shadow-lg text-center">
-    <h2 class="text-3xl font-semibold text-gray-900 mb-4">¡Conéctate conmigo en GitHub!</h2>
-    <p class="text-lg text-gray-700 mb-6">Puedes ver todos mis proyectos y contribuciones en GitHub. No dudes en explorar y contactarme si tienes alguna pregunta.</p>
-    <a href="https://github.com/RonaldoMorales" class="inline-block bg-blue-600 text-white text-xl py-2 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">Visitar mi perfil en GitHub</a>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@1.6.5/dist/flowbite.js"></script>
+
+  <section id="conectate-github" class="my-8 p-6 bg-gray-50 rounded-lg shadow-lg flex flex-col items-center justify-center">
+    <h2 class="text-2xl font-semibold mb-4 text-center text-indigo-700">¡Conéctate conmigo en GitHub!</h2>
+    <p class="text-gray-700 mb-6 text-center">
+      Descubre mis proyectos, colaboraciones y código abierto. Si deseas ver más detalles sobre mi trabajo o hacer una colaboración, no dudes en visitar mi perfil.
+    </p>
+    
+    <!-- Botón estilizado de Flowbite para GitHub -->
+    <a href="https://github.com/RonaldoMorales" target="_blank" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold text-lg rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.88 8.16 6.84 9.48.5.09.68-.22.68-.49 0-.24-.01-.94-.02-1.69-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.61.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.5 2.3 1.07 2.87.82 0-.5.35-.94.65-1.16-2.1-.24-4.3-1.05-4.3-4.66 0-1.03.37-1.88.97-2.54-.1-.24-.42-.94.09-1.95 0 0 .79-.25 2.58.97 1.49-.42 3.1-.42 4.59 0 1.79-1.22 2.58-.97 2.58-.97.51 1.01.19 1.71.09 1.95.6.66.97 1.51.97 2.54 0 3.61-2.2 4.42-4.3 4.66.3.26.65.78.65 1.56 0 1.13-.01 2.03-.02 2.31 0 .27.18.58.69.49C21.12 20.16 24 16.41 24 12c0-5.52-4.48-10-10-10z"/>
+      </svg>
+      Visitar mi GitHub
+    </a>
   </section>
+
+  
+<div class="text-center mb-6">
+  <button
+    (click)="showContactForm = !showContactForm"
+    class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300"
+  >
+    Contáctame directamente
+  </button>
+</div>
+
+
+<div *ngIf="showContactForm" class="transition-all ease-in-out duration-500">
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="bg-gray-100 p-6 rounded-lg shadow-md max-w-md mx-auto">
+    <h2 class="text-xl font-semibold mb-4 text-center">Formulario de Contacto</h2>
+
+    <div class="mb-4">
+      <label for="email" class="block text-gray-700 font-medium">Correo electrónico:</label>
+      <input
+        id="email"
+        type="email"
+        formControlName="email"
+        class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+        required
+      />
+    </div>
+
+    <div class="mb-4">
+      <label for="mensaje" class="block text-gray-700 font-medium">Mensaje:</label>
+      <textarea
+        id="mensaje"
+        formControlName="mensaje"
+        rows="4"
+        class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+        required
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      [disabled]="isSubmitting"
+      class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 disabled:opacity-50"
+    >
+      {{ isSubmitting ? 'Enviando...' : 'Enviar' }}
+    </button>
+  </form>
+</div>
+
+
+<div *ngIf="showPopup" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center z-50">
+  <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm text-center animate__animated animate__fadeIn">
+    <h3 class="text-xl font-semibold mb-4 text-green-500">¡Formulario enviado con éxito!</h3>
+    <p class="text-gray-700 mb-4">Tu solicitud ha sido recibida y será procesada.</p>
+    <button
+      (click)="closePopup()"
+      class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+    >
+      Cerrar
+    </button>
+  </div>
+</div>
 
 
 
